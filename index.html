@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashan Chathuranga | Personal Webpage</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d0b14;
+            color: #f3f0ff;
+            line-height: 1.7;
+        }
+
+        nav {
+            background-color: #15111f;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            border-bottom: 1px solid #302344;
+        }
+
+        nav h2 {
+            color: #c084fc;
+            font-size: 22px;
+        }
+
+        nav a {
+            color: #e9ddff;
+            text-decoration: none;
+            margin-left: 16px;
+        }
+
+        nav a:hover {
+            color: #c084fc;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(30px, 5vw, 46px);
+            margin-bottom: 12px;
+        }
+
+        .hero h1 span {
+            color: #c084fc;
+        }
+
+        .hero p {
+            color: #b6acc9;
+            max-width: 600px;
+            margin: 0 auto 22px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #9333ea;
+            color: #ffffff;
+            padding: 10px 22px;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #a855f7;
+        }
+
+        section {
+            max-width: 950px;
+            margin: 25px auto;
+            padding: 30px;
+            width: 90%;
+            background-color: #191425;
+            border: 1px solid #302344;
+            border-radius: 12px;
+        }
+
+        section h2 {
+            color: #c084fc;
+            margin-bottom: 15px;
+        }
+
+        .interest-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            list-style: none;
+        }
+
+        .interest-list li {
+            background-color: #2b2040;
+            color: #e9d5ff;
+            padding: 8px 15px;
+            border-radius: 6px;
+        }
+
+        .contact-email {
+            color: #c084fc;
+            overflow-wrap: anywhere;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 40px;
+            background-color: #15111f;
+            color: #b6acc9;
+            border-top: 1px solid #302344;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 0 6px;
+                font-size: 14px;
+            }
+
+            .hero {
+                padding: 55px 15px;
+            }
+
+            section {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Ashan.</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Hello, I'm <span>Ashan Chathuranga</span></h1>
+        <p>
+            A university student at the University of Vavuniya,
+            interested in Information Technology and exploring new ideas.
+        </p>
+        <a href="#about" class="button">Discover More</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            My name is Ashan Chathuranga. I study at the University of
+            Vavuniya, Sri Lanka. I am interested in technology and enjoy
+            learning about different areas of Information Technology.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>University:</strong> University of Vavuniya</p>
+        <p><strong>Country:</strong> Sri Lanka</p>
+    </section>
+
+    <section id="interests">
+        <h2>Areas of Interest</h2>
+        <ul class="interest-list">
+            <li>Web Development</li>
+            <li>Software Development</li>
+            <li>Database Management</li>
+            <li>Artificial Intelligence</li>
+            <li>Cyber Security</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p>
+            Feel free to contact me by email.
+        </p>
+        <p>
+            <strong>Email:</strong>
+            <a class="contact-email" href="mailto:ashanchathuranga2023@gmail.com">
+                ashanchathuranga2023@gmail.com
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Personal Portfolio | &copy; 2026 Ashan Chathuranga</p>
+    </footer>
+
+</body>
+</html>
